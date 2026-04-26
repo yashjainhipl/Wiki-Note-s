@@ -1,0 +1,47 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# Logs / runtime artifacts
+*.log
+*.pid
+*.out
+*.err
+
+# Project-generated reports/artifacts
+backend/raw_notes/
+backend/wiki_pages/
+backend/wiki_pages/health_reports/
+backend/wiki_pages/_versions/
+
